@@ -4,8 +4,8 @@
 
 ``` javascript
 // 引入 crawl-kit
-const { crawlKit } = await import('http://localhost:4173/crawl-kit.js');
+const { crawlKit } = await import('https://esm.sh/gh/ikayself/crawl-kit@main/dist/crawl-kit.js');
 
 // 调用方法
-crawlKit.test();
+crawlKit.getObjectKey('document');
 ```
