@@ -2,15 +2,16 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
     build: {
+        sourcemap: true,
+        minify: false,
         lib: {
             entry: 'src/index.ts',
             formats: ['es'],
             fileName: () => 'crawl-kit.js'
-        },
-        sourcemap: true,
-        minify: false
+        }
     },
-    server: {
-        cors: true
+    preview: {
+        cors: true,
+        port: 4173
     }
 });
