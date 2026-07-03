@@ -5,9 +5,10 @@ export default defineConfig({
         sourcemap: true,
         minify: false,
         lib: {
+            name: 'CrawlKit',
             entry: 'src/index.ts',
             formats: ['es'],
-            fileName: () => 'crawl-kit.js'
+            fileName: 'crawl-kit'
         }
     },
     preview: {
