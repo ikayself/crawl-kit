@@ -1,9 +1,15 @@
 {
   "name": "crawl-kit",
   "version": "1.0.0",
-  "author": "",
-  "description": "",
-  "keywords": [],
+  "author": "ikay666@qq.com",
+  "description": "浏览器端爬虫工具包，提供爬虫测试相关的工具函数，方便在浏览器端进行爬虫测试。",
+  "keywords": [
+    "crawl",
+    "scraper",
+    "browser",
+    "dom",
+    "automation"
+  ],
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
